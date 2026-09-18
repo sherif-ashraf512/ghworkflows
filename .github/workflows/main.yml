@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: output msg
         run: echo "hello from workflow"
+
+      - name: checkout repo
+        uses: actions/checkout@v6.1.0
+        
