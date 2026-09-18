@@ -15,4 +15,11 @@ jobs:
 
       - name: checkout repo
         uses: actions/checkout@v6.1.0
+
+  server-resourses:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: view cpu
+        run: top
         
